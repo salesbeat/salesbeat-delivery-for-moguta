@@ -1,0 +1,54 @@
+.mg-admin-html .closeModalSalesbeat {
+    position: absolute;
+    background: 0 0;
+    font-size: 28px;
+    line-height: 1;
+    padding: 0;
+    border: 0;
+    border-radius: 100%;
+    top: 13px;
+    right: 20px;
+    -webkit-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    opacity: .5;
+}
+
+.delivery-salesbeat {
+    display: block;
+    width: 100%;
+}
+
+.delivery-salesbeat .shadow-block {
+    margin: 15px 15px 0 15px;
+}
+
+.wdel2-btn {
+    -webkit-appearance: none !important;
+    cursor: pointer !important;
+    margin: 0 !important;
+    font: inherit !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    border: 0 !important;
+    border-radius: 6px !important;
+    background: #70bc63 !important;
+    padding: 0 30px !important;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+}
+
+.wdel2-tabs > *, .wdel2-tabs > * {
+    font-size: 13px !important;
+    line-height: 20px !important;
+    cursor: pointer !important;
+    padding: 8px 18px !important;
+    border-radius: 4px !important;
+    display: block !important;
+}

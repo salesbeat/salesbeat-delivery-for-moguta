@@ -1,0 +1,26 @@
+.tabs-panel {
+    display: none;
+}
+.tabs-panel.is-active {
+    display: block;
+}
+
+.tabs-panel .admin-options__list {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 127px;
+    border: 1px solid #e6e6e6;
+    padding: 5px 10px;
+}
+
+.tabs-panel .admin-options__list .admin-options + .admin-options {
+    margin-top: 5px;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}

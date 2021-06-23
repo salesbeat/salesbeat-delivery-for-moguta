@@ -1,0 +1,28 @@
+.section-salesbeat {
+    display: block;
+    width: 100%;
+}
+
+#sb-cart-widget:not(:empty) {
+    margin: 15px 0;
+}
+
+#sb-cart-widget-result:not(:empty) {
+    background: #d9edf7;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #4a90e2;
+}
+
+#sb-cart-widget p + p,
+#sb-cart-widget-result p + p {
+    margin-top: 0;
+}
+
+#sb-cart-widget-result p:last-child {
+    margin-top: 10px;
+}
+
+#sb-cart-widget-result a {
+    text-decoration: underline;
+}
